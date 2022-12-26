@@ -56,7 +56,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
 
-  Widget gridView() {
+  Widget gridView() { 
     return Container(
       padding: const EdgeInsets.only(left: 40, right: 40, top: 100),
       child: GridView.count(
